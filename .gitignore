@@ -1,0 +1,10 @@
+# VS Code
+.vscode
+
+# Intellij
+.idea
+
+# Jekyll & Ruby
+.sass-cache/
+Gemfile.lock
+_site/

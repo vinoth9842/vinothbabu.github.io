@@ -1,0 +1,42 @@
+title: Vinothbabu P
+subtitle: Research associate in Inorganic and Physical Chemistry Dept at IISc
+description: >- # this means to ignore newlines until "baseurl:"
+  Vinoth's website: Research associate in Inorganic and Physical Chemistry Dept at Indian Institute of Science
+baseurl: "" # the subpath of site, e.g. /blog
+url: "https://vinothbabu.github.io" # the base hostname & protocol for site, e.g. http://example.com
+
+author_logo: /assets/img/profile.png
+author: Vinothbabu
+author_email: "vinotbabu@gmail.com"
+author_location: Bangalore, India
+author_website_url: "https://vinothbabu.github.io"
+
+# Disqus for commenting under the post
+disqus_shortname: vinoth
+
+# social links
+twitter_username: vino9842
+github_username: vinoth9842
+facebook_username: --
+linkedin_username: --
+
+# Google Analytics
+google_analytics: 
+
+# Additional plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-redirect-from
+
+# Build setting
+permalink: pretty # remove *.html extension from generated link
+markdown: kramdown
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: False
+  syntax_highlighter: rouge
+  syntax_highlighter_opts: {span: {disable: true}}
+  math_engine: mathjax
+
